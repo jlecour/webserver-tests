@@ -43,3 +43,13 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem "mechanize"
+
+  gem "minitest"
+  gem "minitest-reporters"
+
+  gem "guard"
+  gem "guard-minitest"
+end
+
